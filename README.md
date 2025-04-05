@@ -1,16 +1,14 @@
-## Hi there 👋
+## Hello Stranger!
 
-<!--
-**TuomoKareoja/TuomoKareoja** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```python
+class Tuomo:
+    def __init__(self):
+        self._code = ["Python", "SQL", "R"]
+        self._tools = ["pandas", "scikit-learn", "PyMC", "PyWhy", "CatBoost", "tidyverse"]
+        self._interests = ["predicting", "causal inference", "pretty plots", "corgis"]
+        self._challenge = "Causal graphs and Berlin Marathon 2025"
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    def __call__(self, problem):
+        return f"Solving your/mine {problem} using common sense and {', '.join(self.tools[:3])}"
+```
+---
